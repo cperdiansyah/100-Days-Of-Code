@@ -83,6 +83,36 @@
         ]
     },
     {
+        "id": "08cbd537-497f-4305-b7b4-e7493c703a2c",
+        "plate": "ZAG-8112",
+        "transmission": "Automatic",
+        "manufacture": "Ford",
+        "model": "F150",
+        "available": false,
+        "type": "Convertible",
+        "year": 2021,
+        "options": [
+            "CD (Single Disc)",
+            "Airbag: Driver",
+            "Antilock Brakes",
+            "CD (Single Disc)",
+            "A/C: Rear",
+            "Memory Seats",
+            "Third Row Seats"
+        ],
+        "specs": [
+            "All-position 3-point seat belts -inc: outboard pretensioners & force limiters, dual front pwr shoulder height adjusters, rear outboard emergency auto locking retractors, driver emergency locking retractor",
+            "Body color door handles",
+            "Front & rear passenger folding assist grips",
+            "Rear-window defogger w/auto-off timer",
+            "160-amp alternator",
+            "Body color door handles",
+            "Battery saver",
+            "First aid kit",
+            "Immobilizer system"
+        ]
+    },
+    {
         "id": "bf6b5c43-1377-4ae0-8908-310c64266f81",
         "plate": "OSL-4224",
         "transmission": "Automanual",
@@ -137,60 +167,6 @@
         ]
     },
     {
-        "id": "08cbd537-497f-4305-b7b4-e7493c703a2c",
-        "plate": "ZAG-8112",
-        "transmission": "Automatic",
-        "manufacture": "Ford",
-        "model": "F150",
-        "available": false,
-        "type": "Convertible",
-        "year": 2021,
-        "options": [
-            "CD (Single Disc)",
-            "Airbag: Driver",
-            "Antilock Brakes",
-            "CD (Single Disc)",
-            "A/C: Rear",
-            "Memory Seats",
-            "Third Row Seats"
-        ],
-        "specs": [
-            "All-position 3-point seat belts -inc: outboard pretensioners & force limiters, dual front pwr shoulder height adjusters, rear outboard emergency auto locking retractors, driver emergency locking retractor",
-            "Body color door handles",
-            "Front & rear passenger folding assist grips",
-            "Rear-window defogger w/auto-off timer",
-            "160-amp alternator",
-            "Body color door handles",
-            "Battery saver",
-            "First aid kit",
-            "Immobilizer system"
-        ]
-    },
-    {
-        "id": "23574b8f-3e89-4685-a348-67c1f7e5b3c4",
-        "plate": "BHD-3923",
-        "transmission": "Automatic",
-        "manufacture": "Lincoln",
-        "model": "Navigator",
-        "available": false,
-        "type": "Minivan",
-        "year": 2020,
-        "options": [
-            "CD (Multi Disc)",
-            "Cruise Control",
-            "Power Locks",
-            "Alloy Wheels",
-            "Tow Package"
-        ],
-        "specs": [
-            "Body color sill extension",
-            "Torsion beam rear suspension w/stabilizer bar",
-            "Front & rear passenger folding assist grips",
-            "Electronic control braking (ECB)",
-            "Black windshield molding"
-        ]
-    },
-    {
         "id": "752685ce-dd39-40e5-9af5-93fdd36dea7e",
         "plate": "BTW-1960",
         "transmission": "Automatic",
@@ -216,33 +192,6 @@
             "Torsion beam rear suspension w/stabilizer bar",
             "Impact-dissipating upper interior trim",
             "Dual front 2-stage airbags -inc: passenger occupant classification system w/twin-chamber airbag"
-        ]
-    },
-    {
-        "id": "c18a5545-2ce2-4330-aa3b-1bbcf6247519",
-        "plate": "CVO-9549",
-        "transmission": "Manual",
-        "manufacture": "Chevy",
-        "model": "Malibu",
-        "available": false,
-        "type": "Regular Cab Pickup",
-        "year": 2020,
-        "options": [
-            "Bucket Seats",
-            "Power Seats",
-            "CD (Multi Disc)",
-            "Bucket Seats",
-            "Navigation",
-            "Rear Window Defroster",
-            "Fog Lights"
-        ],
-        "specs": [
-            "Front/rear side curtain airbags",
-            "Front & rear side curtain airbags",
-            "Body color front license plate brow",
-            "Rear body-color spoiler",
-            "Reversible/waterproof cargo storage",
-            "Front & rear side curtain airbags"
         ]
     },
     {
@@ -273,6 +222,57 @@
             "Battery saver",
             "20\" x 9.0\" front & 20\" x 10.0\" rear aluminum wheels",
             "Cargo compartment lamp"
+        ]
+    },
+    {
+        "id": "c18a5545-2ce2-4330-aa3b-1bbcf6247519",
+        "plate": "CVO-9549",
+        "transmission": "Manual",
+        "manufacture": "Chevy",
+        "model": "Malibu",
+        "available": false,
+        "type": "Regular Cab Pickup",
+        "year": 2020,
+        "options": [
+            "Bucket Seats",
+            "Power Seats",
+            "CD (Multi Disc)",
+            "Bucket Seats",
+            "Navigation",
+            "Rear Window Defroster",
+            "Fog Lights"
+        ],
+        "specs": [
+            "Front/rear side curtain airbags",
+            "Front & rear side curtain airbags",
+            "Body color front license plate brow",
+            "Rear body-color spoiler",
+            "Reversible/waterproof cargo storage",
+            "Front & rear side curtain airbags"
+        ]
+    },
+    {
+        "id": "23574b8f-3e89-4685-a348-67c1f7e5b3c4",
+        "plate": "BHD-3923",
+        "transmission": "Automatic",
+        "manufacture": "Lincoln",
+        "model": "Navigator",
+        "available": false,
+        "type": "Minivan",
+        "year": 2020,
+        "options": [
+            "CD (Multi Disc)",
+            "Cruise Control",
+            "Power Locks",
+            "Alloy Wheels",
+            "Tow Package"
+        ],
+        "specs": [
+            "Body color sill extension",
+            "Torsion beam rear suspension w/stabilizer bar",
+            "Front & rear passenger folding assist grips",
+            "Electronic control braking (ECB)",
+            "Black windshield molding"
         ]
     },
     {
@@ -412,30 +412,6 @@
         ]
     },
     {
-        "id": "e39f2965-57da-4d8f-afdb-74f6c54e69f0",
-        "plate": "GAG-1943",
-        "transmission": "CVT",
-        "manufacture": "Chevy",
-        "model": "Malibu",
-        "available": true,
-        "type": "SUV",
-        "year": 2017,
-        "options": [
-            "Memory Seats",
-            "Cassette Player",
-            "Alarm",
-            "Power Steering",
-            "Keyless Entry"
-        ],
-        "specs": [
-            "Leather-wrapped shift knob",
-            "Dual front illuminated visor vanity mirrors",
-            "Battery saver",
-            "Driver & front passenger map pockets",
-            "Deluxe insulation group"
-        ]
-    },
-    {
         "id": "72530cba-051d-49d8-822b-deaf2e5330ca",
         "plate": "JWU-8459",
         "transmission": "Automanual",
@@ -463,6 +439,30 @@
             "Back-up camera",
             "Highline door trim panel",
             "Pwr front vented disc/rear drum brakes"
+        ]
+    },
+    {
+        "id": "e39f2965-57da-4d8f-afdb-74f6c54e69f0",
+        "plate": "GAG-1943",
+        "transmission": "CVT",
+        "manufacture": "Chevy",
+        "model": "Malibu",
+        "available": true,
+        "type": "SUV",
+        "year": 2017,
+        "options": [
+            "Memory Seats",
+            "Cassette Player",
+            "Alarm",
+            "Power Steering",
+            "Keyless Entry"
+        ],
+        "specs": [
+            "Leather-wrapped shift knob",
+            "Dual front illuminated visor vanity mirrors",
+            "Battery saver",
+            "Driver & front passenger map pockets",
+            "Deluxe insulation group"
         ]
     },
     {
@@ -547,31 +547,6 @@
         ]
     },
     {
-        "id": "d97e0af5-2728-4ce3-ba7f-9d83a0837db6",
-        "plate": "YHD-4104",
-        "transmission": "Manual",
-        "manufacture": "Lincoln",
-        "model": "Navigator",
-        "available": true,
-        "type": "Regular Cab Pickup",
-        "year": 2014,
-        "options": [
-            "Fog Lights",
-            "Memory Seats",
-            "Rear Window Defroster",
-            "Integrated Phone",
-            "Power Locks",
-            "A/C: Rear"
-        ],
-        "specs": [
-            "XM satellite radio receiver -inc: 90 day trial subscription",
-            "Dual front illuminated visor vanity mirrors",
-            "Front door tinted glass",
-            "Body color door handles",
-            "Chrome bodyside molding"
-        ]
-    },
-    {
         "id": "1bfda124-5175-4b90-bee7-d66affdbcc66",
         "plate": "TPM-8174",
         "transmission": "CVT",
@@ -600,6 +575,31 @@
         ]
     },
     {
+        "id": "d97e0af5-2728-4ce3-ba7f-9d83a0837db6",
+        "plate": "YHD-4104",
+        "transmission": "Manual",
+        "manufacture": "Lincoln",
+        "model": "Navigator",
+        "available": true,
+        "type": "Regular Cab Pickup",
+        "year": 2014,
+        "options": [
+            "Fog Lights",
+            "Memory Seats",
+            "Rear Window Defroster",
+            "Integrated Phone",
+            "Power Locks",
+            "A/C: Rear"
+        ],
+        "specs": [
+            "XM satellite radio receiver -inc: 90 day trial subscription",
+            "Dual front illuminated visor vanity mirrors",
+            "Front door tinted glass",
+            "Body color door handles",
+            "Chrome bodyside molding"
+        ]
+    },
+    {
         "id": "b89117fc-69e1-4366-ba21-9d6a0b2bfb04",
         "plate": "ACT-6027",
         "transmission": "Manual",
@@ -622,6 +622,32 @@
             "Dana 44/226mm rear axle",
             "Roof mounted antenna",
             "Fixed long mast antenna"
+        ]
+    },
+    {
+        "id": "950575d6-958c-422e-a46b-c3ed2e1315ed",
+        "plate": "MRQ-2982",
+        "transmission": "Automatic",
+        "manufacture": "Audi",
+        "model": "A4",
+        "available": false,
+        "type": "Crew Cab Pickup",
+        "year": 2012,
+        "options": [
+            "Navigation",
+            "Rear Window Wiper",
+            "Tow Package",
+            "MP3 (Multi Disc)",
+            "Bucket Seats"
+        ],
+        "specs": [
+            "Pwr accessory delay",
+            "Tire pressure monitoring system (TPMS)",
+            "Tilt/telescoping steering column",
+            "Electronic throttle control system w/intelligence (ETCS-i)",
+            "Front/rear crumple zones",
+            "Rear door child safety locks",
+            "Child safety rear door locks"
         ]
     },
     {
@@ -649,32 +675,6 @@
             "Anti-lock 4-wheel performance disc brakes",
             "200mm front axle",
             "Dual front knee airbags"
-        ]
-    },
-    {
-        "id": "950575d6-958c-422e-a46b-c3ed2e1315ed",
-        "plate": "MRQ-2982",
-        "transmission": "Automatic",
-        "manufacture": "Audi",
-        "model": "A4",
-        "available": false,
-        "type": "Crew Cab Pickup",
-        "year": 2012,
-        "options": [
-            "Navigation",
-            "Rear Window Wiper",
-            "Tow Package",
-            "MP3 (Multi Disc)",
-            "Bucket Seats"
-        ],
-        "specs": [
-            "Pwr accessory delay",
-            "Tire pressure monitoring system (TPMS)",
-            "Tilt/telescoping steering column",
-            "Electronic throttle control system w/intelligence (ETCS-i)",
-            "Front/rear crumple zones",
-            "Rear door child safety locks",
-            "Child safety rear door locks"
         ]
     }
 ]

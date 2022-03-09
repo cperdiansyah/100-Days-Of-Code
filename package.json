@@ -1,0 +1,16 @@
+{
+  "name": "javascript-array-challenge-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chandra Perdiansyah <66311673+cperdiansyah@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir public"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-react": "^7.16.7"
+  }
+}
