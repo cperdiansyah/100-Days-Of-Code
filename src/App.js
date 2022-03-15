@@ -9,13 +9,15 @@ import BlogDetail from './pages/BlogDetail';
 function App() {
   return (
     <div className='App'>
-      <nav>
-        <li>
-          <NavLink to='/'>Home</NavLink>
-          <NavLink to='/profile'>Profile</NavLink>
-          <NavLink to='/blog'>Blog</NavLink>
-          <NavLink to='/contact'>Contact</NavLink>
-        </li>
+      <div className='brand'>Website Chandra</div>
+      <nav className='nav'>
+        <NavLink className='nav-item' to='/'>Home</NavLink>
+
+        <NavLink className='nav-item' to='/profile'>Profile</NavLink>
+
+        <NavLink className='nav-item' to='/blog'>Blog</NavLink>
+
+        <NavLink className='nav-item' to='/contact'>Contact</NavLink>
       </nav>
       <Routes>
         <Route path='/' element={<Home />}></Route>
