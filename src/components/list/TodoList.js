@@ -8,11 +8,11 @@ export default function TodoList({ todos, deleteTodo }) {
           return (
             <li
               key={todo.id}
-              className='px-5 py-2 shadow-md flex justify-between'
+              className='px-5 py-2 shadow-md flex justify-between bg-white rounded-md mb-3'
             >
               {todo.text}
               <button onClick={() => deleteTodo(todo.id)}>
-                <span class='material-icons-outlined text-slate-500'>
+                <span className='material-icons-outlined text-slate-500'>
                   delete
                 </span>
               </button>

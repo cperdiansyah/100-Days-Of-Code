@@ -8,11 +8,11 @@ export default function TodoList({
   }, todos.map(todo => {
     return /*#__PURE__*/React.createElement("li", {
       key: todo.id,
-      className: "px-5 py-2 shadow-md flex justify-between"
+      className: "px-5 py-2 shadow-md flex justify-between bg-white rounded-md mb-3"
     }, todo.text, /*#__PURE__*/React.createElement("button", {
       onClick: () => deleteTodo(todo.id)
     }, /*#__PURE__*/React.createElement("span", {
-      class: "material-icons-outlined text-slate-500"
+      className: "material-icons-outlined text-slate-500"
     }, "delete")));
   })));
 }
