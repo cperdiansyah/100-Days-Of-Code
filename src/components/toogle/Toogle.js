@@ -6,6 +6,7 @@ export default function Toogle() {
   const { theme, setTheme } = useContext(ThemeContext);
 
   console.log(useContext(ThemeContext));
+  
   return (
     <>
       <label className='switch block ml-auto'>
