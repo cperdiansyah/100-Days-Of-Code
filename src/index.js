@@ -4,10 +4,11 @@ import ReactDOM from 'react-dom';
 import ListApp from 'components/ListApp';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import App from 'App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ListApp />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
