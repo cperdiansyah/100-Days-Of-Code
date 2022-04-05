@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 
-export default function TodoForm({ saveTodo }) {
+export default function TodoForm(props) {
   const [value, setValue] = useState('');
+  const inputForm = useRef(null);
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    saveTodo(value);
-    console.warn('Todo saved:', value);
-    setValue('');
+    props.handleSubmit(value);
+    setValue(value);
   };
+
   return (
     <form onSubmit={handleSubmit}>
       <label className='relative block w-60 mx-auto mt-3'>
@@ -22,7 +24,8 @@ export default function TodoForm({ saveTodo }) {
           placeholder='Add something...'
           type='text'
           name='search'
-          onChange={(event) => setValue(event.target.value)}
+          onChange={(e) => setValue(e.target.value)}
+          ref={inputForm}
           value={value}
         />
       </label>

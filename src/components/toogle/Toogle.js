@@ -3,21 +3,16 @@ import './Toogle.css';
 import { ThemeContext } from '../ListApp';
 
 export default function Toogle() {
-  const { theme, setTheme } = useContext(ThemeContext);
-
-  console.log(useContext(ThemeContext));
+  const [theme, setTheme] = useContext(ThemeContext);
   
   return (
-    <>
-      <label className='switch block ml-auto'>
-        <input
-          type='checkbox'
-          onChange={(e) => {
-            console.log(e.target.checked);
-          }}
-        />
+    <div className='flex justify-between'>
+      <span className='text-white'>{theme}</span>
+
+      <label className='switch '>
+        <input type='checkbox' onChange={setTheme} />
         <span className='slider round'></span>
       </label>
-    </>
+    </div>
   );
 }
