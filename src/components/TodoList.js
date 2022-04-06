@@ -23,12 +23,14 @@ export default function TodoList(props) {
           return (
             <li
               key={todo.id}
-              className='px-5 py-2 shadow-md flex items-center justify-between bg-white rounded-md mb-3'
+              className='px-5 py-2 shadow-md flex items-center justify-between bg-white rounded-md mb-3 dark:hover:bg-slate-200'
             >
               <input
                 id={todo.id}
                 type='checkbox'
-                className='appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  checked:border-blue-600 checked:bg-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer'
+                className='appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  checked:border-blue-600 checked:bg-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer
+                dark:checked:bg-slate-600 dark:checked:border-slate-600
+                '
                 onClick={() => {
                   handleListHandler(todo.id);
                 }}
