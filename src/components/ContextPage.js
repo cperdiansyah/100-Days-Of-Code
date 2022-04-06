@@ -1,22 +1,20 @@
-import React, { createContext, useState } from 'react';
-import ThemeContext from './ThemeContext';
-import Toogle from './toogle/Toogle';
+import React from 'react';
+import Card from './Card';
+import TodoContext from './Context/TodoContext';
+import ThemeContext from './Context/ThemeContext';
+import TodoForm from './TodoForm';
 
-const { ThemesContext, ThemeProvider } = ThemeContext;
+const { ThemeProvider } = ThemeContext;
+const { TodoProvider } = TodoContext;
 
 export default function ContextPage() {
   return (
     <ThemeProvider>
-      <div className='container w-fit'>
-        <div className=' mt-10 container-md p-5  bg-blue-400 rounded-md drop-shadow-md'>
-          <div className='header flex items-center'>
-            <h1 className='text-2xl text-center font-medium text-white mb-3 mr-3'>
-              TODO LIST
-            </h1>
-            <Toogle />
-          </div>
-        </div>
-      </div>
+      <TodoProvider>
+        <Card>
+          <TodoForm />
+        </Card>
+      </TodoProvider>
     </ThemeProvider>
   );
 }

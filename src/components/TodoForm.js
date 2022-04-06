@@ -1,13 +1,25 @@
-import React, { useRef, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
+import TodoContext from './Context/TodoContext';
+
+const { TodoFormContext } = TodoContext;
 
 export default function TodoForm(props) {
-  const [value, setValue] = useState('');
+  const todoProps = useContext(TodoFormContext);
   const inputForm = useRef(null);
+
+  const [todoForm, setTodoForm] = useState('');
+
+  console.log(todoProps);
+
+  /* Problem Rerender component */
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    props.handleSubmit(value);
-    setValue(value);
+    todoProps.setTodo([
+      ...todoProps.todo,
+      { id: Date.now(), text: todoForm, completed: false },
+    ]);
+    setTodoForm('');
   };
 
   return (
@@ -24,9 +36,9 @@ export default function TodoForm(props) {
           placeholder='Add something...'
           type='text'
           name='search'
-          onChange={(e) => setValue(e.target.value)}
           ref={inputForm}
-          value={value}
+          value={todoForm}
+          onChange={(e) => setTodoForm(e.target.value)}
         />
       </label>
       <button
