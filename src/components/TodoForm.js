@@ -6,13 +6,9 @@ const { TodoFormContext } = TodoContext;
 export default function TodoForm(props) {
   const todoProps = useContext(TodoFormContext);
   const inputForm = useRef(null);
-
   const [todoForm, setTodoForm] = useState('');
 
-  console.log(todoProps);
-
   /* Problem Rerender component */
-
   const handleSubmit = (e) => {
     e.preventDefault();
     todoProps.setTodo([

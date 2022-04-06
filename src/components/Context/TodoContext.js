@@ -4,7 +4,11 @@ function TodoContext() {
   const TodoFormContext = createContext();
   const TodoProvider = (props) => {
     const [todo, setTodo] = useState([]);
-    const todoState = { todo, setTodo };
+
+    const deleteTodoHandler = (id) => {
+      setTodo(todo.filter((todo) => todo.id !== id));
+    };
+    const todoState = { todo, setTodo, deleteTodoHandler };
 
     return (
       <TodoFormContext.Provider value={todoState}>

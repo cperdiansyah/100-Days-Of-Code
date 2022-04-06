@@ -1,7 +1,6 @@
 /* eslint-disable import/no-unresolved */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ListApp from 'components/ListApp';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from 'App';
